@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PhotogramAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8226877b0cdb925f94b52497f49a95b7ca757443")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7523bb949b3339dad55c67f4eb4d9446ef0b0b11")]
 [assembly: System.Reflection.AssemblyProductAttribute("PhotogramAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PhotogramAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

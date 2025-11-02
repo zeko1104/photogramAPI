@@ -9,6 +9,7 @@ using System.Text;
 using System.Text.Json.Serialization;
 
 
+
 var builder = WebApplication.CreateBuilder(args);
 
 // ==========================
@@ -26,7 +27,7 @@ builder.Services.AddControllers()
 
 // DbContext (MSSQL)
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Custom Services
 builder.Services.AddScoped<IAuthService, AuthService>();
