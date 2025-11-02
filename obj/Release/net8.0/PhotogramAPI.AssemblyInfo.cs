@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("dac7d050-b558-44c9-a65e-67419797a0ee")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("PhotogramAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f896754187f9279e0fda4f9ba1cae529ad5f0874")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8226877b0cdb925f94b52497f49a95b7ca757443")]
 [assembly: System.Reflection.AssemblyProductAttribute("PhotogramAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PhotogramAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

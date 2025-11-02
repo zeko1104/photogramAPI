@@ -142,4 +142,5 @@ C:\Users\zsuku\OneDrive\Desktop\Software\repos\PhotogramAPI\obj\Debug\net8.0\ref
 C:\Users\zsuku\OneDrive\Desktop\Software\repos\PhotogramAPI\obj\Debug\net8.0\PhotogramAPI.pdb
 C:\Users\zsuku\OneDrive\Desktop\Software\repos\PhotogramAPI\obj\Debug\net8.0\PhotogramAPI.genruntimeconfig.cache
 C:\Users\zsuku\OneDrive\Desktop\Software\repos\PhotogramAPI\obj\Debug\net8.0\ref\PhotogramAPI.dll
-C:\Users\zsuku\OneDrive\Desktop\Software\repos\PhotogramAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\zsuku\OneDrive\Desktop\Software\repos\PhotogramAPI\bin\Debug\net8.0\Npgsql.dll
+C:\Users\zsuku\OneDrive\Desktop\Software\repos\PhotogramAPI\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
