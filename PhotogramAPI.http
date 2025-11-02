@@ -1,0 +1,6 @@
+@PhotogramAPI_HostAddress = http://localhost:5226
+
+GET {{PhotogramAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
