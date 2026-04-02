@@ -17,7 +17,11 @@ public class FollowController : ControllerBase
         _context = context;
     }
 
+<<<<<<< HEAD
    
+=======
+    // 🟢 Follow / Unfollow
+>>>>>>> 1db500ad90bed7aae5bb59f25b4600f053c4f99b
     [HttpPost("{userId}")]
     public async Task<IActionResult> FollowUnfollow(int userId)
     {
@@ -31,13 +35,21 @@ public class FollowController : ControllerBase
 
         if (existing != null)
         {
+<<<<<<< HEAD
             
+=======
+            // Already following → Unfollow
+>>>>>>> 1db500ad90bed7aae5bb59f25b4600f053c4f99b
             _context.Friendships.Remove(existing);
             await _context.SaveChangesAsync();
             return Ok(new { message = "User-un follow-u ləğv edildi (unfollowed)" });
         }
 
+<<<<<<< HEAD
        
+=======
+        // Yeni follow
+>>>>>>> 1db500ad90bed7aae5bb59f25b4600f053c4f99b
         var friendship = new Friendship
         {
             FollowerId = currentUserId,
@@ -50,7 +62,11 @@ public class FollowController : ControllerBase
         return Ok(new { message = "User izlənildi (followed)" });
     }
 
+<<<<<<< HEAD
    
+=======
+    // 🟡 İzlədiklərimi gətir
+>>>>>>> 1db500ad90bed7aae5bb59f25b4600f053c4f99b
     [HttpGet("following")]
     public async Task<IActionResult> GetFollowing()
     {
@@ -65,7 +81,11 @@ public class FollowController : ControllerBase
         return Ok(following);
     }
 
+<<<<<<< HEAD
     
+=======
+    // 🟡 Məni izləyənləri gətir
+>>>>>>> 1db500ad90bed7aae5bb59f25b4600f053c4f99b
     [HttpGet("followers")]
     public async Task<IActionResult> GetFollowers()
     {

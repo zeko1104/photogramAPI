@@ -23,7 +23,11 @@ namespace PhotogramAPI.Controllers
             _mapper = mapper;
         }
 
+<<<<<<< HEAD
         
+=======
+        // GET: /api/feed?page=1&pageSize=10
+>>>>>>> 1db500ad90bed7aae5bb59f25b4600f053c4f99b
         [HttpGet]
         public async Task<IActionResult> GetFeed(int page = 1, int pageSize = 10)
         {
@@ -34,7 +38,11 @@ namespace PhotogramAPI.Controllers
                 .Select(f => f.FollowingId)
                 .ToListAsync();
 
+<<<<<<< HEAD
             followingIds.Add(currentUserId); 
+=======
+            followingIds.Add(currentUserId); // öz postları da gəlsin
+>>>>>>> 1db500ad90bed7aae5bb59f25b4600f053c4f99b
 
             var posts = await _context.Posts
                 .Where(p => followingIds.Contains(p.UserId))
@@ -47,7 +55,11 @@ namespace PhotogramAPI.Controllers
                 .ProjectTo<PostFeedDto>(_mapper.ConfigurationProvider)
                 .ToListAsync();
 
+<<<<<<< HEAD
             
+=======
+            // Check if current user liked each post
+>>>>>>> 1db500ad90bed7aae5bb59f25b4600f053c4f99b
             foreach (var post in posts)
             {
                 post.IsLikedByCurrentUser = await _context.Likes

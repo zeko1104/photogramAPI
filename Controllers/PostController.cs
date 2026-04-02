@@ -23,9 +23,15 @@ namespace PhotogramAPI.Controllers
             _cloudinaryService = cloudinaryService;
         }
 
+<<<<<<< HEAD
         
         [HttpPost]
         [Consumes("multipart/form-data")] 
+=======
+        // 🟢 Yeni post yarat
+        [HttpPost]
+        [Consumes("multipart/form-data")] // ✅ şəkil gələcək deyə əlavə olundu
+>>>>>>> 1db500ad90bed7aae5bb59f25b4600f053c4f99b
         public async Task<IActionResult> CreatePost([FromForm] PostDto dto)
         {
             var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
@@ -58,7 +64,11 @@ namespace PhotogramAPI.Controllers
             return Ok(new { message = "Post yaradıldı", post });
         }
 
+<<<<<<< HEAD
         
+=======
+        // 🟡 Bütün postları gətir
+>>>>>>> 1db500ad90bed7aae5bb59f25b4600f053c4f99b
         [AllowAnonymous]
         [HttpGet]
         public async Task<IActionResult> GetAllPosts()
@@ -79,11 +89,19 @@ namespace PhotogramAPI.Controllers
             return Ok(posts);
         }
 
+<<<<<<< HEAD
        
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeletePost(int id)
         {
             
+=======
+        // 🔴 Öz postunu sil
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeletePost(int id)
+        {
+            // Token-dən user.Id götürürük
+>>>>>>> 1db500ad90bed7aae5bb59f25b4600f053c4f99b
             var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
 
             var user = await _context.Users.FindAsync(userId);

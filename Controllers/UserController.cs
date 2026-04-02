@@ -20,7 +20,11 @@ namespace PhotogramAPI.Controllers
             _context = context;
         }
 
+<<<<<<< HEAD
         
+=======
+        // 🟢 Profil məlumatlarını gətir
+>>>>>>> 1db500ad90bed7aae5bb59f25b4600f053c4f99b
         [HttpGet("{userId}")]
         [AllowAnonymous]
         public async Task<IActionResult> GetUserProfile(int userId)
@@ -33,7 +37,11 @@ namespace PhotogramAPI.Controllers
             if (user == null)
                 return NotFound("İstifadəçi tapılmadı.");
 
+<<<<<<< HEAD
             
+=======
+            // Follower və Following sayını tapırıq
+>>>>>>> 1db500ad90bed7aae5bb59f25b4600f053c4f99b
             var followerCount = await _context.Friendships.CountAsync(f => f.FollowingId == userId);
             var followingCount = await _context.Friendships.CountAsync(f => f.FollowerId == userId);
 
@@ -67,13 +75,21 @@ namespace PhotogramAPI.Controllers
 
             if (dto.File != null)
             {
+<<<<<<< HEAD
                 
+=======
+                // Köhnə şəkil varsa -> silirik
+>>>>>>> 1db500ad90bed7aae5bb59f25b4600f053c4f99b
                 if (!string.IsNullOrEmpty(user.ProfileImagePublicId))
                 {
                     await cloudinary.DeleteImageAsync(user.ProfileImagePublicId);
                 }
 
+<<<<<<< HEAD
                 
+=======
+                // Yeni şəkil yükləyirik
+>>>>>>> 1db500ad90bed7aae5bb59f25b4600f053c4f99b
                 var uploadResult = await cloudinary.UploadImageAsync(dto.File);
                 user.ProfileImageUrl = uploadResult.Url;
                 user.ProfileImagePublicId = uploadResult.PublicId;

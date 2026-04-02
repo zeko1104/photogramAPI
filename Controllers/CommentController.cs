@@ -20,7 +20,11 @@ namespace PhotogramAPI.Controllers
             _context = context;
         }
 
+<<<<<<< HEAD
         
+=======
+        // 🟢 Yeni comment əlavə et
+>>>>>>> 1db500ad90bed7aae5bb59f25b4600f053c4f99b
         [HttpPost]
         public async Task<IActionResult> AddComment(CommentDto dto)
         {
@@ -42,7 +46,11 @@ namespace PhotogramAPI.Controllers
             return Ok(new { message = "Şərh əlavə olundu", comment });
         }
 
+<<<<<<< HEAD
         
+=======
+        // 🟡 Postun bütün şərhlərini gətir
+>>>>>>> 1db500ad90bed7aae5bb59f25b4600f053c4f99b
         [AllowAnonymous]
         [HttpGet("{postId}")]
         public async Task<IActionResult> GetComments(int postId)
@@ -63,7 +71,11 @@ namespace PhotogramAPI.Controllers
             return Ok(comments);
         }
 
+<<<<<<< HEAD
         
+=======
+        // 🔴 Öz comment-ni sil
+>>>>>>> 1db500ad90bed7aae5bb59f25b4600f053c4f99b
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteComment(int id)
         {

@@ -145,6 +145,7 @@ C:\Users\zsuku\OneDrive\Desktop\Software\repos\PhotogramAPI\obj\Debug\net8.0\ref
 C:\Users\zsuku\OneDrive\Desktop\Software\repos\PhotogramAPI\bin\Debug\net8.0\Npgsql.dll
 C:\Users\zsuku\OneDrive\Desktop\Software\repos\PhotogramAPI\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\zsuku\OneDrive\Desktop\Software\repos\PhotogramAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+<<<<<<< HEAD
 C:\Users\Zakir\Desktop\Software\repos\photogramAPI-main\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\Zakir\Desktop\Software\repos\photogramAPI-main\bin\Debug\net8.0\appsettings.json
 C:\Users\Zakir\Desktop\Software\repos\photogramAPI-main\bin\Debug\net8.0\PhotogramAPI.staticwebassets.endpoints.json
@@ -292,3 +293,5 @@ C:\Users\Zakir\Desktop\Software\repos\photogramAPI-main\obj\Debug\net8.0\refint\
 C:\Users\Zakir\Desktop\Software\repos\photogramAPI-main\obj\Debug\net8.0\PhotogramAPI.pdb
 C:\Users\Zakir\Desktop\Software\repos\photogramAPI-main\obj\Debug\net8.0\PhotogramAPI.genruntimeconfig.cache
 C:\Users\Zakir\Desktop\Software\repos\photogramAPI-main\obj\Debug\net8.0\ref\PhotogramAPI.dll
+=======
+>>>>>>> 1db500ad90bed7aae5bb59f25b4600f053c4f99b

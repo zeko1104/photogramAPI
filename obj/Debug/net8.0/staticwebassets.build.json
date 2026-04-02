@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"Version":1,"Hash":"+Ud0X5YPFRAb4x02jhs4HaUNwxUr/Ii9sY1TorcaikA=","Source":"PhotogramAPI","BasePath":"/","Mode":"Root","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}
+=======
+{"Version":1,"Hash":"XNc5hXqK1huWw/YFPwegSkmBG49M42VdS9FrqDEgaGc=","Source":"PhotogramAPI","BasePath":"_content/PhotogramAPI","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}
+>>>>>>> 1db500ad90bed7aae5bb59f25b4600f053c4f99b

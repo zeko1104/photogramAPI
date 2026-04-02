@@ -19,7 +19,11 @@ namespace PhotogramAPI.Controllers
             _context = context;
         }
 
+<<<<<<< HEAD
        
+=======
+        // POST: api/like/{postId}
+>>>>>>> 1db500ad90bed7aae5bb59f25b4600f053c4f99b
         [HttpPost("{postId}")]
         public async Task<IActionResult> LikePost(int postId)
         {
@@ -33,7 +37,11 @@ namespace PhotogramAPI.Controllers
 
             if (existingLike != null)
             {
+<<<<<<< HEAD
                 
+=======
+                // Artıq like edib, unlike edirik
+>>>>>>> 1db500ad90bed7aae5bb59f25b4600f053c4f99b
                 _context.Likes.Remove(existingLike);
                 await _context.SaveChangesAsync();
                 return Ok(new { message = "Like silindi (unliked)" });
@@ -51,7 +59,11 @@ namespace PhotogramAPI.Controllers
             return Ok(new { message = "Post bəyənildi (liked)" });
         }
 
+<<<<<<< HEAD
         
+=======
+        // GET: api/like/{postId}
+>>>>>>> 1db500ad90bed7aae5bb59f25b4600f053c4f99b
         [HttpGet("{postId}")]
         public async Task<IActionResult> GetLikeCount(int postId)
         {

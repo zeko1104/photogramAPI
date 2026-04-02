@@ -7432,23 +7432,39 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\Zakir\\.nuget\\packages\\": {},
+=======
+    "C:\\Users\\zsuku\\.nuget\\packages\\": {},
+>>>>>>> 1db500ad90bed7aae5bb59f25b4600f053c4f99b
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Zakir\\Desktop\\Software\\repos\\photogramAPI-main\\PhotogramAPI.csproj",
       "projectName": "PhotogramAPI",
       "projectPath": "C:\\Users\\Zakir\\Desktop\\Software\\repos\\photogramAPI-main\\PhotogramAPI.csproj",
       "packagesPath": "C:\\Users\\Zakir\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Zakir\\Desktop\\Software\\repos\\photogramAPI-main\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\zsuku\\OneDrive\\Desktop\\Software\\repos\\PhotogramAPI\\PhotogramAPI.csproj",
+      "projectName": "PhotogramAPI",
+      "projectPath": "C:\\Users\\zsuku\\OneDrive\\Desktop\\Software\\repos\\PhotogramAPI\\PhotogramAPI.csproj",
+      "packagesPath": "C:\\Users\\zsuku\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\zsuku\\OneDrive\\Desktop\\Software\\repos\\PhotogramAPI\\obj\\",
+>>>>>>> 1db500ad90bed7aae5bb59f25b4600f053c4f99b
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\Zakir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+        "C:\\Users\\zsuku\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 1db500ad90bed7aae5bb59f25b4600f053c4f99b
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -7475,7 +7491,11 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
+<<<<<<< HEAD
       "SdkAnalysisLevel": "10.0.200"
+=======
+      "SdkAnalysisLevel": "9.0.300"
+>>>>>>> 1db500ad90bed7aae5bb59f25b4600f053c4f99b
     },
     "frameworks": {
       "net8.0": {
@@ -7539,7 +7559,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+>>>>>>> 1db500ad90bed7aae5bb59f25b4600f053c4f99b
       }
     }
   }
